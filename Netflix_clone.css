@@ -15,7 +15,6 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1000px, 100vw);
-    /* position: relative; */
 }
 
 .main .box {
@@ -27,12 +26,7 @@ body {
     width: 100vw;
 }
 
-/* .main .a{ 
-    height: 15vh;
-    display: flex;
-}*/
 nav {
-    /* position: relative; */
     margin: auto;
     width: 76vw;
     display: flex;
@@ -42,14 +36,10 @@ nav {
 }
 
 .b {
-    /* background-color: none; */
-    /* border: 1px solid white; */
     position: relative;
-    /* display: ; */
     z-index: 10;
     padding: 3px 27px;
     font-family: Arial, Helvetica, sans-serif;
-    /* font-family: 'Martel Sans', sans-serif; */
     font-weight: 500;
     font-size: 16px;
     margin: 0px 7px;
@@ -61,7 +51,6 @@ nav {
 .btn {
     background-color: red;
     color: white;
-    /* border: red; */
     padding: 5px 33px;
     font-size: 24px;
     border-radius: 3px;
@@ -79,9 +68,7 @@ nav {
 }
 
 .main input {
-    /* background-color: red; */
     color: white;
-    /* border: red; */
     padding: 7px 33px;
     font-size: 16px;
     border-radius: 3px;
@@ -91,9 +78,7 @@ nav {
 
 nav svg {
     height: 5vh;
-    /* width: 130px; */
     fill: red;
-    /* margin: 34px 50px; */
     position: relative;
     z-index: 10;
 }
@@ -102,14 +87,12 @@ nav svg {
     height: 70%;
     display: flex;
     flex-direction: column;
-    /* font-size: 25px; */
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
     z-index: 10;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
-    /* font-family: 'Martel Sans', sans-serif; */
     padding: 30px;
     text-align: center;
     gap: 14px;
@@ -137,23 +120,16 @@ nav svg {
     opacity: 0.3;
 }
 
-.kashish {
-    /* height: 200px; */
+.netflix {
     display: flex;
-    /* width: 80vw; */
-    /* flex-direction: column; */
-    /* font-size: 25px; */
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
     z-index: 10;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
-    /* font-family: 'Martel Sans', sans-serif; */
     margin: 160px;
-    /* text-align: center; */
     gap: 14px;
-    /* background-color: white; */
     padding: 20px 100px;
 }
 
@@ -161,74 +137,63 @@ nav svg {
     position: relative;
 }
 
-.kashish img {
+.netflix img {
     width: 555px;
     position: relative;
     z-index: 10;
 }
 
-.kashish video {
+.netflix video {
     position: absolute;
     top: 59px;
     right: 0;
     width: 479px;
 }
 
-.kashish>div {
-    /* justify-content: left ; */
-    /* align-content: left; */
+.netflix>div {
     gap: 15px;
 }
 
-.kashish :nth-child(1) :nth-child(1) {
+.netflix :nth-child(1) :nth-child(1) {
     font-weight: 900;
     font-size: 48px;
     padding: 10px 0;
 }
 
-.kashish :nth-child(1) :nth-child(2) {
+.netflix :nth-child(1) :nth-child(2) {
     font-weight: 400;
     font-size: 24px;
 }
 
-.kashish2 {
-    /* height: 200px; */
+.netflix2 {
     display: flex;
-    /* width: 80vw; */
-    /* flex-direction: column; */
-    /* font-size: 25px; */
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
     z-index: 10;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
-    /* font-family: 'Martel Sans', sans-serif; */
     margin: 165px;
     padding: 20px 20px;
-    /* text-align: center; */
     gap: 14px;
 }
 
-.kashish2>div {
-    /* justify-content: left ; */
-    /* align-content: left; */
+.netflix2>div {
     gap: 15px;
 }
 
-.kashish2> :nth-child(2) :nth-child(1) {
+.netflix2> :nth-child(2) :nth-child(1) {
     font-weight: 900;
     font-size: 48px;
     padding: 10px 0;
 }
 
-.kashish2> :nth-child(2) :nth-child(2) {
+.netflix2> :nth-child(2) :nth-child(2) {
     font-weight: 400;
     font-size: 24px;
 }
 
-.kashish2 img {
-    /* width: 200px; */
+.netflix2 img {
     position: relative;
 }
 
@@ -236,7 +201,6 @@ nav svg {
     width: 301px;
     height: 104px;
     border: 2px solid rgb(84, 81, 81);
-    /* opacity: 0.3; */
     border-radius: 15px;
     bottom: 123px;
     left: 107px;
@@ -247,6 +211,7 @@ nav svg {
     justify-content: center;
     align-items: center;
 }
+
 .point img {
     width: 55px;
     height: 80px;
@@ -256,48 +221,40 @@ nav svg {
     grid-column: 1/2;
     margin: 2px 2px 2px 2px;
 }
-.v{
+
+.v {
     position: relative;
 }
 
-.v> .point {
+.v>.point {
     position: absolute;
     top: 359px;
     left: 170px;
-    /* width: 479px; */
 }
+
 .point :nth-child(2) :nth-child(1) {
     grid-column: 2/3;
-    /* font-weight: normal; */
     font-weight: 700;
     font-size: 16px;
 }
 
 .point :nth-child(2) :nth-child(2) {
     grid-column: 2/3;
-    /* font-weight: normal; */
     font-weight: 500;
     font-size: 14px;
     color: rgb(44, 96, 216);
 }
 
-.kashish3 {
-    /* height: 200px; */
+.netflix3 {
     display: flex;
-    /* width: 80vw; */
-    /* flex-direction: column; */
-    /* font-size: 25px; */
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
     z-index: 10;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
-    /* font-family: 'Martel Sans', sans-serif; */
     margin: 160px;
-    /* text-align: center; */
     gap: 14px;
-    /* background-color: white; */
     padding: 20px 100px;
 }
 
@@ -305,42 +262,35 @@ nav svg {
     position: relative;
 }
 
-.kashish3 img {
-    /* width: 555px; */
+.netflix3 img {
     position: relative;
     z-index: 10;
 }
 
-.kashish3 video {
+.netflix3 video {
     position: absolute;
     top: 59px;
     left: 150px;
     width: 359px;
 }
 
-.kashish3>div {
-    /* justify-content: left ; */
-    /* align-content: left; */
+.netflix3>div {
     gap: 15px;
 }
 
-.kashish3 :nth-child(1) :nth-child(1) {
+.netflix3 :nth-child(1) :nth-child(1) {
     font-weight: 900;
     font-size: 48px;
     padding: 10px 0;
 }
 
-.kashish3 :nth-child(1) :nth-child(2) {
+.netflix3 :nth-child(1) :nth-child(2) {
     font-weight: 400;
     font-size: 24px;
 }
 
-.kashish4 {
-    /* height: 200px; */
+.netflix4 {
     display: flex;
-    /* width: 80vw; */
-    /* flex-direction: column; */
-    /* font-size: 25px; */
     justify-content: center;
     padding: 20px 100px;
     align-items: center;
@@ -348,29 +298,23 @@ nav svg {
     z-index: 10;
     position: relative;
     font-family: Arial, Helvetica, sans-serif;
-    /* font-family: 'Martel Sans', sans-serif; */
     margin: 165px;
-    /* text-align: center; */
     gap: 14px;
 }
 
-/* .kashish4> div{
-    /* justify-content: left ; */
-/* align-content: left; */
-/*gap: 15px;
-} */
-.kashish4 :nth-child(2) :nth-child(1) {
+
+.netflix4 :nth-child(2) :nth-child(1) {
     font-weight: 900;
     font-size: 48px;
     padding: 10px 0;
 }
 
-.kashish4> :nth-child(2) :nth-child(2) {
+.netflix4> :nth-child(2) :nth-child(2) {
     font-weight: 400;
     font-size: 24px;
 }
 
-.kashish4 img {
+.netflix4 img {
     width: 37vw;
     position: relative;
 }
@@ -382,7 +326,6 @@ nav svg {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    /* margin: 80px; */
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -413,13 +356,11 @@ nav svg {
 }
 
 footer {
-    /* grid-template-rows: 1fr 1fr; */
     max-width: 80vw;
     padding: 30px;
     margin: auto;
     color: white;
     font-size: 19px;
-    /* justify-content: left; */
 }
 
 .footer-item a {
@@ -442,36 +383,33 @@ footer {
     padding: 34px 15px;
 }
 
-/* .free svg{
-    width: 40px;
-    height: 40px;
-} */
 @media screen and (max-width: 1300px) {
 
     nav {
         max-width: 90vw;
     }
 
-    .w{
+    .w {
         font-size: 15px;
     }
-    .kashish {
+
+    .netflix {
         flex-wrap: wrap;
         margin: auto;
     }
 
-    .kashish2 {
+    .netflix2 {
         flex-wrap: wrap;
         margin: auto;
         padding: 20px 100px;
     }
 
-    .kashish3 {
+    .netflix3 {
         flex-wrap: wrap;
         margin: auto;
     }
 
-    .kashish4 {
+    .netflix4 {
         flex-wrap: wrap;
         margin: auto;
     }
@@ -480,14 +418,16 @@ footer {
         width: 305px;
     }
 
-    .kashish video {
+    .netflix video {
         width: 305px;
     }
-    .kashish3 video{
+
+    .netflix3 video {
         width: 185px;
         top: 27px;
         left: 57px;
     }
+
     .e> :nth-child(1) {
         font-size: 32px;
     }
@@ -516,60 +456,60 @@ footer {
     .footer-item {
         max-width: 90vw;
         padding: 75px 0;
-        /* font-size: 9px; */
     }
 
     .footer-item {
         align-items: center;
     }
-    .kashish :nth-child(1) :nth-child(1) {
-        /* font-weight: 500; */
+
+    .netflix :nth-child(1) :nth-child(1) {
         font-size: 32px;
         justify-content: center;
         align-items: center;
     }
-    .kashish :nth-child(1) :nth-child(2) {
-        /* font-weight: 500; */
+
+    .netflix :nth-child(1) :nth-child(2) {
         font-size: 18px;
         justify-content: center;
         align-items: center;
     }
-    .kashish2 :nth-child(2) :nth-child(1) {
-        /* font-weight: 500; */
+
+    .netflix2 :nth-child(2) :nth-child(1) {
         font-size: 32px;
         justify-content: center;
         align-items: center;
     }
-    .kashish2 :nth-child(2) :nth-child(2) {
-        /* font-weight: 500; */
+
+    .netflix2 :nth-child(2) :nth-child(2) {
         font-size: 18px;
         justify-content: center;
         align-items: center;
     }
-    .kashish3 :nth-child(1) :nth-child(1) {
-        /* font-weight: 500; */
+
+    .netflix3 :nth-child(1) :nth-child(1) {
         font-size: 32px;
         justify-content: center;
         align-items: center;
     }
-    .kashish3 :nth-child(1) :nth-child(2) {
-        /* font-weight: 500; */
+
+    .netflix3 :nth-child(1) :nth-child(2) {
         font-size: 18px;
         justify-content: center;
         align-items: center;
     }
-    .kashish4 :nth-child(2) :nth-child(1) {
-        /* font-weight: 500; */
+
+    .netflix4 :nth-child(2) :nth-child(1) {
         font-size: 32px;
         justify-content: center;
         align-items: center;
     }
-    .kashish4 :nth-child(2) :nth-child(2) {
-        /* font-weight: 500; */
+
+    .netflix4 :nth-child(2) :nth-child(2) {
         font-size: 18px;
         justify-content: center;
         align-items: center;
     }
+
     .point {
         width: 301px;
         height: 104px;
@@ -600,9 +540,4 @@ footer {
         color: white;
     }
 
-    /* .footer-item {
-        display: flex;
-        flex-direction: column;
-        gap: 23px;
-    } */
 }
